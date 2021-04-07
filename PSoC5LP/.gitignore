@@ -11,9 +11,9 @@ Backup/
 Docs/
 Release/
 Export/
-*/codegentemp
+*/codegentemp/
 */CortexM3
-*/Generated_Source
+*/Generated_Source/
 *_datasheet.pdf
 *_timing.html
 *.cycdx
