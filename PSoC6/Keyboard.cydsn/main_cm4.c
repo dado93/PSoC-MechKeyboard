@@ -1,13 +1,7 @@
-/* ========================================
- *
- * Copyright YOUR COMPANY, THE YEAR
- * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
- *
- * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF your company.
- *
- * ========================================
+/**
+*   \brief Main source file for PSoC6 BLE Keyboard
+*
+*   \author Davide Marzorati
 */
 
 #include "debug_interface.h"
@@ -17,7 +11,7 @@ int main(void)
 {
     __enable_irq(); /* Enable global interrupts. */
 
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+    // Initialize debug serial port
     UART_START();
     setvbuf(stdin, NULL, _IONBF, 0);
     DBG_PRINTF("\f");

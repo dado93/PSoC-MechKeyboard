@@ -12,16 +12,10 @@
 #ifndef __DEBUG__
     #define __DEBUG__
 
+    #include "config.h"
     #include <project.h>
     #include <stdio.h>
-
-    /***************************************
-    * Conditional Compilation Parameters
-    ***************************************/
-    #define ENABLED                         (1u)
-    #define DISABLED                        (0u)
-    #define DEBUG_UART_ENABLED              ENABLED
-
+    
     /***************************************
     *   UART Macros / prototypes
     ***************************************/
